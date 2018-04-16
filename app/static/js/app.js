@@ -69,7 +69,7 @@ const Upload = Vue.component('upload-form', {
         <button type="submit" name="submit">Submit</button>
       </form> 
     `,
-    method:{
+    methods:{
         uploadPhoto: function(){
             let self =this;
             let uploadForm= document.getElementById('uploadForm');
